@@ -53,7 +53,7 @@ hr {
 /************XX*******id Styles****************XX**************/
 
 .nav-styles {
-  background: linear-gradient(#614385, #516395);
+  background: linear-gradient(to right, #614385, #516395);
 }
 
 .nav-link-style {

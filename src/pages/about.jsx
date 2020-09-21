@@ -1,5 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+import { Button, Row, Col } from "react-bootstrap"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
@@ -15,13 +18,9 @@ import {
   faLaptopCode,
 } from "@fortawesome/free-solid-svg-icons"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import { Button, Row, Col } from "react-bootstrap"
-
 import avatarLogo from "../images/dr3-avatar.jpeg"
 
-const about = () => (
+const about = data => (
   <>
     <Layout>
       <SEO title="About" />

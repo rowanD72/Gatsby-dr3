@@ -21,7 +21,7 @@ const Container = styled.div`
   font-family: "Montserrat", sans-serif;
 `
 
-const IndexPage = () => (
+const IndexPage = props => (
   <>
     <Layout>
       <SEO title="Home" />

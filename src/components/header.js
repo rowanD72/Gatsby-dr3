@@ -5,7 +5,7 @@ import { Nav, Navbar } from "react-bootstrap"
 const Header = () => {
   return (
     <header>
-      <Navbar expand="lg" className="nav-syles">
+      <Navbar expand="lg" className="nav-styles">
         <Navbar.Brand href="/" id="nav-logo">
           DR3WEBDEV
         </Navbar.Brand>

@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 import { faCode } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
@@ -7,9 +8,10 @@ import officeShot from "../images/dr3-office.jpeg"
 import candleShot from "../images/von-candle.jpeg"
 import steakShot from "../images/steak_potatoes.jpeg"
 
-const design = () => (
+const design = data => (
   <>
     <Layout>
+      <SEO title="Design" />
       <h1>Welcome To The Design Page</h1>
       <small>Where there is nothing more pleasing to the eye</small>
       <section className="mt-5">
