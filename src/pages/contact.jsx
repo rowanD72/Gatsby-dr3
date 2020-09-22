@@ -25,11 +25,11 @@ const contact = () => (
               than glad to assist you.
             </p>
             <form
-              name="/contact"
+              name="/contact/"
               method="post"
-              netlify-honeypot="bot-field"
+              data-netlify-honeypot="bot-field"
               data-netlify="true"
-              action="/success"
+              action="/success/"
             >
               <div className="contact-section">
                 <div className="contact-wrapper">
@@ -43,6 +43,7 @@ const contact = () => (
 
                   <div className="form-group">
                     <input type="text" className="email" placeholder="Email" />
+                    <input type="hidden" name="contact" value="contact" />
                     <div></div>
                   </div>
 
@@ -50,7 +51,7 @@ const contact = () => (
                     <textarea
                       name="textarea"
                       className="message"
-                      rows="5"
+                      rows="1"
                       placeholder="Message"
                     ></textarea>
                   </div>
