@@ -1,10 +1,12 @@
 import React from "react"
 import Helmet from "react-helmet"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 
-const success = () => (
+const success = props => (
   <>
     <Layout>
+      <SEO title="Success" />
       <Helmet>
         <title>Success Page</title>
         <meta name="description" content="Success Page" />
