@@ -25,12 +25,14 @@ const contact = () => (
               than glad to assist you.
             </p>
             <form
-              name="/contact/"
+              name="contact"
               method="post"
               data-netlify="true"
               data-netlify-honeypot="bot-field"
-              action="/pages/success/"
+              data-netlify-recaptcha="true"
+              action="/success/"
             >
+              <input type="hidden" name="contact" value="contact" />
               <div className="contact-section">
                 <div className="contact-wrapper">
                   <div className="form-group">
@@ -58,12 +60,13 @@ const contact = () => (
                       className="message"
                       rows="1"
                       placeholder="Message"
-                      name="textarea"
                     ></textarea>
                   </div>
 
                   <div>
-                    <Button type="submit">Submit</Button>
+                    <Button type="submit" name="contact-submit-button">
+                      Submit
+                    </Button>
                   </div>
                 </div>
                 <div className="contact-logo">
