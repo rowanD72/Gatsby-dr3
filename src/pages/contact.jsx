@@ -71,3 +71,5 @@ const contact = props => (
     </Layout>
   </>
 )
+
+export default contact
