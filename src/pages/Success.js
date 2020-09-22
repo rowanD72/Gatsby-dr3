@@ -2,7 +2,7 @@ import React from "react"
 import Helmet from "react-helmet"
 import Layout from "../components/layout"
 
-const success = props => (
+const Success = props => (
   <>
     <Layout>
       <Helmet>
@@ -23,4 +23,4 @@ const success = props => (
   </>
 )
 
-export default success
+export default Success
