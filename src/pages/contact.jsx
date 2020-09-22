@@ -29,7 +29,7 @@ const contact = () => (
               method="post"
               data-netlify-honeypot="bot-field"
               data-netlify="true"
-              action="/success/"
+              action="/pages/success/"
             >
               <div className="contact-section">
                 <div className="contact-wrapper">
