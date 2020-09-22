@@ -30,7 +30,6 @@ const contact = () => (
               data-netlify="true"
               data-netlify-honeypot="bot-field"
               action="/pages/success/"
-              hidden
             >
               <div className="contact-section">
                 <div className="contact-wrapper">
