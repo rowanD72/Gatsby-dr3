@@ -1,5 +1,5 @@
 import React from "react"
-import { Nav, Navbar } from "react-bootstrap"
+import { Nav, Navbar, Link } from "react-bootstrap"
 
 /**where I can add navigation for all pages */
 const Header = () => {
@@ -18,16 +18,16 @@ const Header = () => {
             <Nav.Link href="/" className="nav-link-style">
               Home
             </Nav.Link>
-            <Nav.Link href="about" className="nav-link-style">
+            <Nav.Link href="/about/" className="nav-link-style">
               About
             </Nav.Link>
-            <Nav.Link href="contact" className="nav-link-style">
+            <Nav.Link href="/contact/" className="nav-link-style">
               Contact
             </Nav.Link>
-            <Nav.Link href="services" className="nav-link-style">
+            <Nav.Link href="/services/" className="nav-link-style">
               Services
             </Nav.Link>
-            <Nav.Link href="design" className="nav-link-style">
+            <Nav.Link href="/design/" className="nav-link-style">
               Design
             </Nav.Link>
           </Nav>

@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+
 import { Button, Row, Col } from "react-bootstrap"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
@@ -20,10 +20,9 @@ import {
 
 import avatarLogo from "../images/dr3-avatar.jpeg"
 
-const about = data => (
+const about = () => (
   <>
     <Layout>
-      <SEO title="About" />
       <Row className="about-wrapper">
         <Col className="about-info-section" xs={8} md={12}>
           <div className="about-header-section">

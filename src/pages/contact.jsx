@@ -2,7 +2,6 @@ import React from "react"
 import Layout from "../components/layout"
 import { Button } from "react-bootstrap"
 import styled from "styled-components"
-import SEO from "../components/seo"
 
 import tabletLogo from "../images/tablet-logo1.png"
 
@@ -13,10 +12,9 @@ const Container = styled.div`
   font-family: "Montserrat", sans-serif;
 `
 
-const contact = props => (
+const contact = () => (
   <>
     <Layout>
-      <SEO title="Contact" />
       <Container>
         <div className="row">
           <div className="col-12">
@@ -29,6 +27,7 @@ const contact = props => (
             <form
               name="/contact"
               method="post"
+              netlify-honeypot="bot-field"
               data-netlify="true"
               action="/success"
             >

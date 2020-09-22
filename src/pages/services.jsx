@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+
 import { Row, Col } from "react-bootstrap"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
@@ -13,10 +13,9 @@ import {
   faChartLine,
 } from "@fortawesome/free-solid-svg-icons"
 
-const services = props => (
+const services = () => (
   <>
     <Layout>
-      <SEO title="Service" />
       <Row className="section-header">
         <Col sm={12} md={12}>
           <h1>
