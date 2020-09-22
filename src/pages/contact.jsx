@@ -27,9 +27,10 @@ const contact = () => (
             <form
               name="/contact/"
               method="post"
-              data-netlify-honeypot="bot-field"
               data-netlify="true"
+              data-netlify-honeypot="bot-field"
               action="/pages/success/"
+              hidden
             >
               <div className="contact-section">
                 <div className="contact-wrapper">
@@ -38,12 +39,17 @@ const contact = () => (
                       type="text"
                       className="name"
                       placeholder="Your Name"
+                      name="name"
                     />
                   </div>
 
                   <div className="form-group">
-                    <input type="text" className="email" placeholder="Email" />
-                    <input type="hidden" name="contact" value="contact" />
+                    <input
+                      type="text"
+                      className="email"
+                      placeholder="Email"
+                      name="email"
+                    />
                     <div></div>
                   </div>
 
@@ -53,6 +59,7 @@ const contact = () => (
                       className="message"
                       rows="1"
                       placeholder="Message"
+                      name="textarea"
                     ></textarea>
                   </div>
 
