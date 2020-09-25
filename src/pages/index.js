@@ -69,7 +69,7 @@ const IndexPage = props => (
               DR3 Web Dev & Design is here to help solve all your company needs
               when it comes to building a website from scratch or redesigning
               the company's current website. We build custom, user-friendly, and
-              mobile responsive web apps for small your business.
+              mobile responsive web apps for your small business.
             </p>
             <p>
               Websites play a vital role in our everyday lives. From shopping,
