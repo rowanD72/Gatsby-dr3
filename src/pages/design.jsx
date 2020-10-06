@@ -42,7 +42,7 @@ const design = () => (
             </p>
           </div>
           <div className="card-footer">
-            <a href="https://www.michlatex.com">
+            <a href="http://www.michlatex.com">
               <FontAwesomeIcon
                 icon={faCode}
                 className="design-site-icon"
