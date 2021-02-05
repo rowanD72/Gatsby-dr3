@@ -4,9 +4,10 @@ import Layout from "../components/layout"
 import { faCode } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
-import officeShot from "../images/dr3-office.jpeg"
-import candleShot from "../images/von-candle.jpeg"
-import steakShot from "../images/steak_potatoes.jpeg"
+import dr3logo from "../images/dr3web-logo1.1.png"
+import candleShot from "../images/te-website-screenshot.png"
+import mltWebsite from "../images/michlatex-website-screenshot.png"
+import blbBarber from '../images/blb_advertisement.png'
 
 const design = () => (
   <>
@@ -29,7 +30,7 @@ const design = () => (
       <div className="card-group">
         <div className="card">
           <img
-            src={steakShot}
+            src={mltWebsite}
             alt="Steak and Potatoes"
             className="card-img-top"
           />
@@ -54,7 +55,7 @@ const design = () => (
           </div>
         </div>
         <div className="card">
-          <img src={officeShot} alt="haircut" className="card-img-top" />
+          <img src={blbBarber} alt="haircut" className="card-img-top" />
           <div className="card-body">
             <h5 className="card-title">Black Label Barber Shop</h5>
             <p className="card-text">
@@ -93,26 +94,12 @@ const design = () => (
           </div>
         </div>
       </div>
+
+      /***********MOBILE APP SECTION BEGINS *************/
       <h3 className="mt-5">Mobile Apps</h3>
       <div className="card-group">
         <div className="card">
-          <img src={officeShot} alt="Card Img Top" className="card-img-top" />
-          <div className="card-body">
-            <h5 className="card-title">Comng Soon</h5>
-            <p className="card-text">Under Construction</p>
-          </div>
-          <div className="card-footer">
-            <a href="#">
-              <FontAwesomeIcon
-                icon={faCode}
-                className="design-site-icon"
-              ></FontAwesomeIcon>
-              <small className="text-muted px-1">Click To View Site</small>
-            </a>
-          </div>
-        </div>
-        <div className="card">
-          <img src={officeShot} alt="Card Img Top" className="card-img-top" />
+          <img src={dr3logo} alt="Card Img Top" className="card-img-top" />
           <div className="card-body">
             <h5 className="card-title">Coming Soon</h5>
             <p className="card-text">Under Construction</p>
@@ -128,9 +115,25 @@ const design = () => (
           </div>
         </div>
         <div className="card">
-          <img src={officeShot} alt="Card Img Top" className="card-img-top" />
+          <img src={dr3logo} alt="Card Img Top" className="card-img-top" />
           <div className="card-body">
-            <h5 className="card-title">Comning Soon</h5>
+            <h5 className="card-title">Coming Soon</h5>
+            <p className="card-text">Under Construction</p>
+          </div>
+          <div className="card-footer">
+            <a href="#">
+              <FontAwesomeIcon
+                icon={faCode}
+                className="design-site-icon"
+              ></FontAwesomeIcon>
+              <small className="text-muted px-1">Click To View Site</small>
+            </a>
+          </div>
+        </div>
+        <div className="card">
+          <img src={dr3logo} alt="Card Img Top" className="card-img-top" />
+          <div className="card-body">
+            <h5 className="card-title">Coming Soon</h5>
             <p className="card-text">Under Construction</p>
           </div>
           <div className="card-footer">
