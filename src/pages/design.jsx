@@ -95,7 +95,7 @@ const design = () => (
         </div>
       </div>
 
-      /***********MOBILE APP SECTION BEGINS *************/
+      
       <h3 className="mt-5">Mobile Apps</h3>
       <div className="card-group">
         <div className="card">
