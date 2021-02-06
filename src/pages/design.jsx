@@ -4,10 +4,10 @@ import Layout from "../components/layout"
 import { faCode } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
-import dr3logo from "../images/dr3web-logo1.1.png"
+import dr3logo from "../images/dr3weblogo1.1.png"
 import candleShot from "../images/te-website-screenshot.png"
 import mltWebsite from "../images/michlatex-website-screenshot.png"
-import blbBarber from '../images/blb_advertisement.png'
+import blbBarber from '../images/blbs_advertisement.png'
 
 const design = () => (
   <>
