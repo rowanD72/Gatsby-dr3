@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import dr3logo from "../images/dr3weblogo1.1.png"
 import candleShot from "../images/te-website-screenshot.png"
 import mltWebsite from "../images/michlatex-website-screenshot.png"
-import blbBarber from '../images/blbs_advertisement.png'
+import websiteImg39 from '../images/website-sceenshot.png'
 
 const design = () => (
   <>
@@ -26,12 +26,12 @@ const design = () => (
         </div>
       </section>
 
-      <h3>Web Apps</h3>
+      <h3 id='webApps'>Web Apps</h3>
       <div className="card-group">
         <div className="card">
           <img
             src={mltWebsite}
-            alt="Steak and Potatoes"
+            alt="MichLaTex website screenshot"
             className="card-img-top"
           />
           <div className="card-body">
@@ -43,7 +43,7 @@ const design = () => (
             </p>
           </div>
           <div className="card-footer">
-            <a href="http://www.michlatex.com">
+            <a href="http://www.michlatex.com" target='_blank' rel='noreferrer'>
               <FontAwesomeIcon
                 icon={faCode}
                 className="design-site-icon"
@@ -55,17 +55,16 @@ const design = () => (
           </div>
         </div>
         <div className="card">
-          <img src={blbBarber} alt="haircut" className="card-img-top" />
+          <img src={websiteImg39} alt="comedian" className="card-img-top" />
           <div className="card-body">
-            <h5 className="card-title">Black Label Barber Shop</h5>
+            <h5 className="card-title">39 Highway Tour</h5>
             <p className="card-text">
-              Black Label Barber Shop is a local Barber Shop serving the Mid
-              Michigan area since the early 2000's. This site was built using
-              React, Express, Node, and MongoDB.
+              The 39 Cents Highway Tour. Built using Gatsby JS. Very simple website that shows
+              cities, venues, times and dates for his comedy tour.
             </p>
           </div>
           <div className="card-footer">
-            <a href="https://www.dr3webdev.com">
+            <a href="https://www.39highwaytour.com" target='_blank' rel='noreferrer'>
               <FontAwesomeIcon
                 icon={faCode}
                 className="design-site-icon"
@@ -84,19 +83,19 @@ const design = () => (
             </p>
           </div>
           <div className="card-footer">
-            <a href="#">
+            <button href="#">
               <FontAwesomeIcon
                 icon={faCode}
                 className="design-site-icon"
               ></FontAwesomeIcon>
               <small className="text-muted px-1">Click To View Site</small>
-            </a>
+            </button>
           </div>
         </div>
       </div>
 
       
-      <h3 className="mt-5">Mobile Apps</h3>
+      <h3 className="mt-5" id='mobileApps'>Mobile Apps</h3>
       <div className="card-group">
         <div className="card">
           <img src={dr3logo} alt="Card Img Top" className="card-img-top" />
@@ -105,13 +104,13 @@ const design = () => (
             <p className="card-text">Under Construction</p>
           </div>
           <div className="card-footer">
-            <a href="#">
+            <button href="#">
               <FontAwesomeIcon
                 icon={faCode}
                 className="design-site-icon"
               ></FontAwesomeIcon>
               <small className="text-muted px-1">Click To View Site</small>
-            </a>
+            </button>
           </div>
         </div>
         <div className="card">
@@ -121,13 +120,13 @@ const design = () => (
             <p className="card-text">Under Construction</p>
           </div>
           <div className="card-footer">
-            <a href="#">
+            <button href="#">
               <FontAwesomeIcon
                 icon={faCode}
                 className="design-site-icon"
               ></FontAwesomeIcon>
               <small className="text-muted px-1">Click To View Site</small>
-            </a>
+            </button>
           </div>
         </div>
         <div className="card">
@@ -137,13 +136,13 @@ const design = () => (
             <p className="card-text">Under Construction</p>
           </div>
           <div className="card-footer">
-            <a href="#">
+            <button href="#">
               <FontAwesomeIcon
                 icon={faCode}
                 className="design-site-icon"
               ></FontAwesomeIcon>
               <small className="text-muted px-1">Click To View Site</small>
-            </a>
+            </button>
           </div>
         </div>
       </div>

@@ -37,7 +37,7 @@ const IndexPage = props => (
                 <Button variant="primary" className="mobile-select">
                   Mobile Designs
                 </Button>
-
+        
                 <Button variant="outline-primary" className="web-select">
                   Web Designs
                 </Button>
