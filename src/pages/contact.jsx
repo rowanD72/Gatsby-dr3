@@ -1,17 +1,17 @@
 import React, { useState } from "react"
 import { navigate } from "gatsby-link"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 import { Button } from "react-bootstrap"
-import styled from "styled-components"
 
 import tabletLogo from "../images/tablet-logo1.png"
 
-const Container = styled.div`
-  margin: 3rem auto;
-  display: flex;
-  flex-direction: row;
-  font-family: "Montserrat", sans-serif;
-`
+// const Container = styled.div`
+//   margin: 3rem auto;
+//   display: flex;
+//   flex-direction: row;
+//   font-family: "Montserrat", sans-serif;
+// `
 
 const encode = data => {
   return Object.keys(data)
@@ -46,9 +46,8 @@ function Contact() {
   }
 
   return (
-    <div>
       <Layout>
-        <Container>
+        <SEO title='Contact' />
           <div className="row">
             <div className="col-12">
               <h1>Contact Us</h1>
@@ -120,9 +119,7 @@ function Contact() {
               </form>
             </div>
           </div>
-        </Container>
       </Layout>
-    </div>
   )
 }
 

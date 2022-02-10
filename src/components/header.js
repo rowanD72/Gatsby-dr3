@@ -5,14 +5,14 @@ import { Nav, Navbar } from "react-bootstrap"
 const Header = () => {
   return (
     <header>
-      <Navbar expand="lg" className="nav-styles">
+      <Navbar expand="lg" className="nav-styles" >
         <Navbar.Brand href="/" id="nav-logo">
           DR3WEBDEV
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" id="toggle-bar-style" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav
-            className="ml-auto
+            className="ms-auto
            justify-content-end"
           >
             <Nav.Link href="/" className="nav-link-style">

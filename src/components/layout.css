@@ -226,6 +226,7 @@ hr {
 
 .about-header-section {
   flex: 1;
+  justify-content: center;
 }
 
 .about-text-section p {
@@ -251,9 +252,11 @@ hr {
   margin-left: -20px;
 }
 
-/* .about-btn {
-  position: absolute;
-} */
+.about-btn {
+  /* position: absolute; */
+  justify-content: center;
+  margin-left: 2em;
+}
 
 .about-cta {
   border: 1px solid #f5edb5;
@@ -272,74 +275,6 @@ hr {
   background: #f5edb5;
   border: none;
   color: #614385;
-}
-
-.flip-card {
-  background-color: transparent;
-  width: 300px;
-  height: 300px;
-  border: 1px solid #f1f1f1;
-  perspective: 1000px;
-  border: none;
-}
-
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.27);
-}
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front,
-.flip-card-back,
-.about-cred-card-icon,
-h6 {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.flip-card-front {
-  background-color: #000;
-  color: #fff;
-}
-
-.flip-card-front img {
-  width: 300px;
-  height: 300px;
-}
-
-.flip-card-back {
-  background-color: #a37dd1;
-  color: #fff;
-  transform: rotateY(180deg);
-}
-
-.flip-card-front,
-.about-cred-card-icon,
-h6 {
-  text-align: center;
-}
-
-.bio-item,
-.school-item,
-.design-item,
-.code-item {
-  list-style-type: none;
-}
-
-.school-item-span,
-.design-item-span {
-  color: #f5edb5;
 }
 
 /**************XX********* ABOUT SECTION ****XX*****/
@@ -456,7 +391,9 @@ h6 {
 /***********XX**********SERVICES PAGE STYLES**********XX********/
 
 /*********************DESIGN PAGE STYLES******************/
-
+.card {
+  margin: 0.625rem;
+}
 .card-title,
 .card-text {
   color: #000;
@@ -475,6 +412,9 @@ h6 {
   cursor: pointer;
 }
 
+/* .design-intro {
+  max-width: 90%;
+} */
 /***********XX**********DESIGN PAGE STYLES**********XX********/
 
 /*******************MEDIA QUERIES STYLES********************/
@@ -488,6 +428,10 @@ h6 {
   .jumbo-info-container {
     margin-top: 5vh;
     align-items: center;
+  }
+
+  .header-container {
+    max-width: 50%;
   }
 
   .home-image-cover img {
@@ -516,14 +460,18 @@ h6 {
     width: 12rem;
   }
 
-  .about-btn {
+  /* .about-btn {
     margin: 10px 20px 20px 200px;
-  }
+  } */
 
   .name,
   .email {
     width: 35%;
   }
+
+  /* .design-intro {
+    max-width: 60%;
+  } */
 }
 
 /*MEDIA QUERIES MAX-WIDTH 1024PX*/

@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 import { faCode } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
@@ -12,6 +13,7 @@ import websiteImg39 from '../images/website-sceenshot.png'
 const design = () => (
   <>
     <Layout>
+      <SEO title='Design' />
       <h1>Welcome To The Design Page</h1>
       <small>Where there is nothing more pleasing to the eye</small>
       <section className="mt-5">
@@ -79,17 +81,17 @@ const design = () => (
             <h5 className="card-title">Tranquil Essence Candles</h5>
             <p className="card-text">
               For great smelling candles, Tranquil Essence has your order ready.
-              Built using React, Node, Express, and MongoDB.
+              Built using Gatsby and Shopify.
             </p>
           </div>
           <div className="card-footer">
-            <button href="#">
+             <a href="https://www.tecandlecompany.com" target='_blank' rel='noreferrer'>
               <FontAwesomeIcon
                 icon={faCode}
                 className="design-site-icon"
               ></FontAwesomeIcon>
               <small className="text-muted px-1">Click To View Site</small>
-            </button>
+              </a>
           </div>
         </div>
       </div>
