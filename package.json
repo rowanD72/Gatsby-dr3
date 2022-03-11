@@ -30,7 +30,8 @@
     "styled-components": "^5.2.0"
   },
   "devDependencies": {
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "yarn-upgrade-all": "^0.6.1"
   },
   "keywords": [
     "gatsby"
